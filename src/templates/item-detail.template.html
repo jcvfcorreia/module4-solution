@@ -1,0 +1,14 @@
+<h3>Category Items</h3>
+<ul>
+  <li ng-repeat="item in itemDetail.items">
+    <div>
+      <div>Item name: {{ item.name }}</div>
+      <ul>
+        <li>Description: {{ item.description}}</li>
+        <li>Price Large: {{ item.price_large}}</li>
+        <li>Price Small: {{ item.price_small}}</li>
+        <li>Short Name: {{ item.short_name}}</li>
+      </ul>
+    </div>
+  </li>
+</ul>
